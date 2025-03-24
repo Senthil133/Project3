@@ -1,0 +1,44 @@
+.comingSoon{
+    height: 100vh;
+    background: #F6F8FB;
+}
+.comingSoon h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.comingSoon p{
+    font-size: 24px;
+    font-weight: 400;
+    color:  rgb(34, 51, 84,0.5);
+}
+.comingSoon h2{
+    font-size: 88px;
+    font-weight: 700;
+}
+.comingSoon .Release span{
+    color:  rgb(34, 51, 84,0.5);
+    font-size: 30px;
+    font-weight: 400;
+}
+.comingSoon .email{
+    border-radius: 6px;
+    border: 1px solid #CCCEDD;
+    background:  #FFF;
+    width: 842px;
+    height: 69px;
+}
+.comingSoon input{
+    border: transparent;
+    width: auto;
+    width: 500px;
+}
+.comingSoon button{
+    border-radius: 6px;
+    background: #52B80E;
+    height: 40px;
+    color: #FFF;
+}
+.comingSoon .emailbox p{
+    font-size: 13px;
+    font-weight: 400;
+}

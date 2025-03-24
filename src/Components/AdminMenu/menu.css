@@ -1,0 +1,19 @@
+.menu {
+    max-width: 218px;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+
+}
+.menu button{
+    justify-content: left;
+    border-radius: 8px;
+    width: 178px;
+    height: 40px;
+}
+.menu button:hover{
+ 
+    background: #52B80E;
+    color: #fff;
+
+}

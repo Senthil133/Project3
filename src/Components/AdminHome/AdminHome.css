@@ -1,0 +1,125 @@
+.AdminHome{
+    width: 100%;
+}
+.AdminHome h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+.AdminHome .banner{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid  #DDE2E8;
+    background:  #FFF;
+    font-size: 14px;
+    font-weight: 400px;
+}
+.AdminHome .banner h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.AdminHome .banner textarea{
+    border-radius: 6px;
+    border: 1px solid  #DDE2E8;
+    background:  #FFF;
+    width: 330px;
+    height: 83px;
+}
+.AdminHome .banner input{
+    border-radius: 6px;
+    border: 1px solid  #DDE2E8;
+    background:  #FFF;
+    width: 250px;
+    height: 50px;
+}
+
+.AdminHome .banner .Import{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.AdminHome .banner .Import button{
+    font-size: 14px;
+    font-weight: 400px;
+    position: relative;
+    display: flex;
+    width: 160px;
+    height: 50px;
+    color: #000;
+} 
+.AdminHome .banner .Import button input{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    transform: scale(5);
+    width: 160px;
+}
+.AdminHome .banner .save button{
+    border-radius: 8px;
+    background: #52B80E;
+    width: 169px;
+    height: 50px;
+    color: #FFF;
+}
+.AdminHome .banner .uploadCategories {
+    position: relative;
+    display: flex;
+    width: 52px;
+    height: 52px;
+    color: #000;
+    border-radius: 6px;
+    border: 1px solid #DDE2E8;
+} 
+.AdminHome .banner .uploadCategories  input{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    transform: scale(5);
+    width: 52px;
+}
+.AdminHome .banner .catBox img{
+    
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #DDE2E8;
+}
+.AdminHome .banner .catBox span{
+    font-size: 10px;
+    font-weight: 400;
+}
+/* .catBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 100%;
+} */
+/* .catBox:hover .catBoxDelete{
+    display: block;  
+} */
+  .catBoxDelete{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px; */
+}
+.catBoxDelete button{
+    border: 0.4px solid #F46B5B;
+    background: #F46B5B;
+    width: 24px ;
+    height: 36px ;
+    border-radius: 50%;
+    position: absolute;
+    /* margin-top: -8px; */
+    z-index: 6;
+    color: #FFF;
+   
+}
+/* .catBoxDelete button .deleteButton{
+    width: 18px ;
+    height: 18px  ;
+} */

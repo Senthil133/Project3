@@ -1,0 +1,80 @@
+.Header .topHeader{
+    border-bottom: 1px solid #DFDFE0;
+}
+.Header .topHeader .Search{
+    border-radius: 10px;
+    background: #F0F1F2;
+    width: 100%;
+}
+.Header .topHeader input{
+    border: none;
+    background: transparent;
+    color:#9A9EA6;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.Header .topHeader .LoginButton{
+    border-radius: 6px;
+    border: 1px solid #52B80E;
+    color: #52B80E;
+    padding: 0.5rem 2rem;
+}
+.Header .bottomHaeder{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 0px 6px 0px rgba(0, 0, 0, 0.02);
+}
+.categories .categoriesBox button{
+    width: 271px;
+    height: 140px;
+    border-radius: 16px;
+    border: 1px solid  #A7A7A7;
+
+}
+.categoriesCon{
+    background: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.categories{
+    background: #fff;
+    padding: 4% 5.5%;
+    width: 100%; 
+    max-width: 1403px; 
+}
+.categories span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.categories .categoriesBox span{
+    color: #383838;
+    font-size: 18px;
+    font-weight: 400;
+}
+.catBox > .catContainer{
+    display: none;
+}
+.open > .catContainer{
+    display: block;
+}
+
+.catContainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: 100; 
+    
+}
+.Header{
+    position: relative;
+}
+.sell{
+    border-radius: 5.584px;
+    background: #52B80E;
+    color: #FFF;
+    padding: 12px 48px;
+}

@@ -1,0 +1,117 @@
+.createListing h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.createListing .sellform span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.createListing .sellform input{
+    border-radius: 8px;
+    border: 1px solid  #D0D0D2;
+    width: 100%;
+    min-width: 314px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-left: 8px;
+}
+.createListing .sellform .aadhar button{
+    border-radius: 8px;
+    border: 1px solid  #D0D0D2;
+    width: 100%;
+    min-width: 314px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-left: 8px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: #888;
+}
+.createListing .sellform .aadhar button input{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    width: 314px;
+    height: 60px;
+    
+}
+.createListing .sellform textarea{
+    border-radius: 8px;
+    border: 1px solid  #D0D0D2;
+    width: 100%;
+    height: 120px;
+    padding: 8px;
+}
+.createListing .sellform .Location  {
+    width: 100%;
+    
+}
+.createListing .sellform .Specifications {
+    width: 100%;   
+}
+.createListing .sellform .Add .imageInput{
+    border-radius: 8px;
+    background: #C4C4C4;
+    width: 137px;
+    height: 138px;
+    position: relative;
+}
+.createListing .sellform .Add .imageInput input{
+    cursor: pointer;
+    position: absolute;
+    width: 137px;
+    height: 60px;
+    opacity: 0;
+}
+.createListing .sellform .Add{
+    width: 100%;
+    height: 100%;
+}
+.createListing .sellform .off{
+    border-radius: 8px;
+    border: 1px solid  #F46B5B;
+    color: #F46B5B;
+    width: 80px;
+    padding: 10px;
+}
+.createListing .sellform .getOtp{
+    border: transparent;
+    color: #F46B5B;
+    width: 80px;
+    padding: 10px;
+}
+.createListing .sellform{
+    width: 100%;
+}
+.createListing .save{
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.createListing .save .cancel{
+    border-radius: 6px;
+    border: 1px solid rgba(255, 0, 0, 0.50);
+    height: 40px;
+    color: rgba(255, 0, 0, 0.50);
+    width: 120px;
+}
+.createListing .save .publish{
+    border-radius: 6px;
+    border: 1px solid #52B80E;
+    background: #52B80E;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+
+}
+.OTP .EnterOTP{
+    display: none;
+}
+.open > .EnterOTP{
+    display: block;
+}

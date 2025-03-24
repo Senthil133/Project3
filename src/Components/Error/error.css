@@ -1,0 +1,30 @@
+.Error{
+    height: 100vh;
+    background: #F6F8FB;
+}
+.Error h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.Error p{
+    font-size: 24px;
+    font-weight: 400;
+    color:  rgb(34, 51, 84,0.5);
+}
+.Error .search{
+    border-radius: 6px;
+    border: 1px solid #CCCEDD;
+    background:  #FFF;
+    width: 842px;
+    height: 69px;
+}
+.Error input{
+    border: transparent;
+    width: 500px;
+}
+.Error button{
+    border-radius: 6px;
+    background: #52B80E;
+    height: 40px;
+    color: #FFF;
+}

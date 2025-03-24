@@ -1,0 +1,43 @@
+.maintenance{
+    height: 100vh;
+    background: #F6F8FB;
+}
+.maintenance h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.maintenance p{
+    font-size: 24px;
+    font-weight: 400;
+    color:  rgb(34, 51, 84,0.5);
+}
+.maintenance span{
+    font-size: 24px;
+    font-weight: 700; 
+}
+.maintenance .phone{
+    color: rgba(34, 51, 84, 0.50);
+    font-size: 15px;
+    font-weight: 400;
+}
+.maintenance .phone span{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.maintenance .details{
+    width: 800px;
+}
+.maintenance button{
+    border-radius: 6px;
+    border: 1px solid #52B80E;
+    background:  #FFF;
+    color: #52B80E;
+    font-size: 15px;
+    font-weight: 700;
+}
+.maintenance hr{
+    opacity: 0.1;
+    background: #223354;
+    width: 800px;
+}

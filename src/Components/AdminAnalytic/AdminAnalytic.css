@@ -1,0 +1,43 @@
+.AdminAnalytic h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.AdminAnalytic .analytic .analyticUser{
+    width: 349px;
+    height: 134px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid  #E6E7E9;
+    background:  #FFF;
+}
+.AdminAnalytic .analytic .analyticUser img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.AdminAnalytic .analytic .analyticUser h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+.AdminAnalytic .analytic .analyticUser span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(24, 24, 25, 0.42);
+}
+.AdminAnalytic .analytic .graph{
+    width: 742px;
+    height: 335px;
+    border-radius: 8px;
+    border: 1px solid  #E6E7E9;
+    background:  #FFF;
+}
+
+.AdminAnalytic .analytic .analyticList{
+    width: 350px;
+    height: 335px;
+    border-radius: 8px;
+    border: 1px solid  #E6E7E9;
+    background:  #FFF;
+}

@@ -1,0 +1,53 @@
+.createAccount .account .accountBox{
+    width: 684px;
+    border-radius: 32px;
+    border: 1px solid  #D0D0D2;
+    background: #FFF;
+    padding: 4rem 8rem;
+}
+.createAccount .account .accountBox h1{
+    color:  #383838;
+    font-size: 48px;
+    font-weight: 700;
+}
+.createAccount .account .accountBox p{
+    color: #888;
+    font-size: 18px;
+    font-weight: 400;
+}
+.createAccount .account .accountBox label{
+    color:#383838;
+    font-size: 18px;
+    font-weight: 400;
+}
+.createAccount .account .accountBox .input{
+    border-radius: 8px;
+    border: 1px solid #D0D0D2;
+    height: 60px;
+    color: #888;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+.createAccount .account .accountBox input{
+    border: transparent;
+}
+.createAccount .account .accountBox button{
+    border-radius: 8px;
+    background: #52B80E;
+    color: #FFF;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.createAccount .account .accountBox .fpword{
+    color: #52B80E;
+    background:transparent;
+    font-weight: 400;
+}
+.createAccount .account .accountBox .lgwithgoogle{
+    border: 2px solid  #52B80E;
+    background: #FFF;
+    color: rgb(0, 0, 0, 0.6);
+
+}
